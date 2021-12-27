@@ -1,0 +1,66 @@
+<!DOCTYPE MeshLabDocument>
+<MeshLabProject>
+ <MeshGroup>
+  <MLMesh filename="models/bundle.ply" idInFile="-1" visible="0" label="bundle">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption solidColor="192 192 192 255" pointSize="3" wireWidth="1" pointColor="252 233 79 255" wireColor="64 64 64 255" boxColor="234 234 234 255">000001010000000010000100010001001010001010100000000100111010000000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh filename="models/option-0000.ply" idInFile="-1" visible="1" label="option-0000.ply">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption solidColor="192 192 192 255" pointSize="3" wireWidth="1" pointColor="252 233 79 255" wireColor="64 64 64 255" boxColor="234 234 234 255">000001010000000010000100010001001010001010100000000100111010000000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh filename="models/poisson.ply" idInFile="-1" visible="1" label="Poisson-disk Samples">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption solidColor="192 192 192 255" pointSize="3" wireWidth="1" pointColor="252 233 79 255" wireColor="64 64 64 255" boxColor="234 234 234 255">100001010000000010000100010001011010010010100000000100111010000000001001</RenderingOption>
+  </MLMesh>
+ </MeshGroup>
+ <RasterGroup>
+  <MLRaster label="00000000.jpg">
+   <VCGCamera TranslationVector="0.0108864 -0.321423 0.293429 1" RotationMatrix="0.999886 0.0151063 0 0 0.0130687 -0.865015 -0.501575 0 -0.00757698 0.501519 -0.865114 0 0 0 0 1 " CameraType="0" LensDistortion="0 0" PixelSizeMm="1 1" ViewportPx="6000 4000" CenterPx="3000 2000" BinaryData="0" FocalMm="14887.656"/>
+   <Plane semantic="1" fileName="visualize/00000000.jpg"/>
+  </MLRaster>
+  <MLRaster label="00000001.jpg">
+   <VCGCamera TranslationVector="-0.960232 -0.00138503 0.777609 1" RotationMatrix="0.957076 -0.0941855 0.274107 0 0.00323725 -0.942195 -0.335049 0 0.289819 0.321554 -0.901448 0 0 0 0 1 " CameraType="0" LensDistortion="0 0" PixelSizeMm="1 1" ViewportPx="6000 4000" CenterPx="3000 2000" BinaryData="0" FocalMm="14567.992"/>
+   <Plane semantic="1" fileName="visualize/00000001.jpg"/>
+  </MLRaster>
+  <MLRaster label="00000002.jpg">
+   <VCGCamera TranslationVector="-0.209743 1.19209e-07 -0.424082 1" RotationMatrix="0.987026 0.0648167 0.146897 0 0.134268 -0.834893 -0.533784 0 0.0880456 0.546583 -0.832764 0 0 0 0 1 " CameraType="0" LensDistortion="0 0" PixelSizeMm="1 1" ViewportPx="6000 4000" CenterPx="3000 2000" BinaryData="0" FocalMm="15752.873"/>
+   <Plane semantic="1" fileName="visualize/00000002.jpg"/>
+  </MLRaster>
+  <MLRaster label="00000003.jpg">
+   <VCGCamera TranslationVector="-1.06863 1.49012e-07 0.710367 1" RotationMatrix="0.952094 -0.133508 0.275125 0 -0.0245362 -0.930117 -0.366442 0 0.304822 0.342136 -0.888834 0 0 0 0 1 " CameraType="0" LensDistortion="0 0" PixelSizeMm="1 1" ViewportPx="6000 4000" CenterPx="3000 2000" BinaryData="0" FocalMm="14502.578"/>
+   <Plane semantic="1" fileName="visualize/00000003.jpg"/>
+  </MLRaster>
+  <MLRaster label="00000004.jpg">
+   <VCGCamera TranslationVector="0.281008 -0.0956547 0.789607 1" RotationMatrix="0.980268 0.195395 -0.0299025 0 0.169243 -0.907794 -0.383754 0 -0.102129 0.371122 -0.922951 0 0 0 0 1 " CameraType="0" LensDistortion="0 0" PixelSizeMm="1 1" ViewportPx="6000 4000" CenterPx="3000 2000" BinaryData="0" FocalMm="14734.689"/>
+   <Plane semantic="1" fileName="visualize/00000004.jpg"/>
+  </MLRaster>
+  <MLRaster label="00000005.jpg">
+   <VCGCamera TranslationVector="1.1191 -1.49012e-07 0.810155 1" RotationMatrix="0.930429 0.318145 -0.181895 0 0.216868 -0.878095 -0.426516 0 -0.295415 0.357396 -0.886001 0 0 0 0 1 " CameraType="0" LensDistortion="0 0" PixelSizeMm="1 1" ViewportPx="6000 4000" CenterPx="3000 2000" BinaryData="0" FocalMm="13717.121"/>
+   <Plane semantic="1" fileName="visualize/00000005.jpg"/>
+  </MLRaster>
+  <MLRaster label="00000006.jpg">
+   <VCGCamera TranslationVector="0.386179 0.109266 -0.487444 1" RotationMatrix="0.975464 0.208934 -0.0694026 0 0.140999 -0.83498 -0.53191 0 -0.169084 0.509073 -0.843952 0 0 0 0 1 " CameraType="0" LensDistortion="0 0" PixelSizeMm="1 1" ViewportPx="6000 4000" CenterPx="3000 2000" BinaryData="0" FocalMm="15319.706"/>
+   <Plane semantic="1" fileName="visualize/00000006.jpg"/>
+  </MLRaster>
+  <MLRaster label="00000007.jpg">
+   <VCGCamera TranslationVector="0.453102 0.00074622 0.744055 1" RotationMatrix="0.981121 0.188835 -0.0417394 0 0.160912 -0.916819 -0.365444 0 -0.107276 0.351829 -0.929897 0 0 0 0 1 " CameraType="0" LensDistortion="0 0" PixelSizeMm="1 1" ViewportPx="6000 4000" CenterPx="3000 2000" BinaryData="0" FocalMm="14584.843"/>
+   <Plane semantic="1" fileName="visualize/00000007.jpg"/>
+  </MLRaster>
+ </RasterGroup>
+</MeshLabProject>
